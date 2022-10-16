@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.box{
+    position: relative;
+    overflow: hidden;
+    margin: 100px auto;
+    width: 520px;
+    height: 280px;
+    background-color: red;
+	float: left;
+	margin-left: 10%;
+}
+
+.left{
+    position: absolute;
+    top: 125px;
+    left: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.right{
+    position: absolute;
+    top:125px;
+    left: 500px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+img{
+    width: 520px;
+    height: 280px;
+}
+.box .pic{
+    width: 600%;
+}
+.pic{
+    position: absolute;
+}
+.pic li {
+    float: left;
+}
+.lis{
+   position: absolute;
+   bottom: 15px;
+   left: 50%;
+   margin-left: -35px;
+   width: 70px;
+   height:13px;
+   border-radius: 7px; 
+   background: rgba(158, 154, 154, 0.7);
+}
+.lis li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    margin: 3px;
+    border-radius: 50%;
+    background-color: #fff;
+   
+}
+.lis .selected{
+    background-color: cyan;
+}
+
+.box1{
+	float: left;
+	margin-left: 20%;
+	
+}
+.box1 ul li{
+	font-size: 30px;
+	margin-top: 50px;
+	color: #fff;
+}
+
+.box2{
+	display: -webkit-flex; /* Safari */
+	display: flex;
+}
+.box2-1{
+	background-color: aliceblue;
+}
+.box2-2{
+	background-color: aquamarine;
+}
+.box2-3{
+	background-color: azure;
+	border: 2px;
+}
